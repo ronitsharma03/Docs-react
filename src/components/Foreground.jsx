@@ -9,21 +9,75 @@ function Foreground() {
     const data = [
         {
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: "6mb",
+            close: false,
+            tag: {isOpen: false, tagTitle: "Download Now", tagColor: "blue"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: ".75mb",
+            close: true,
+            tag: {isOpen: true, tagTitle: "Upload Now", tagColor: "green"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: ".15mb",
+            close: false,
+            tag: {isOpen: true, tagTitle: "Download Now", tagColor: "blue"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: ".50mb",
+            close: true,
+            tag: {isOpen: true, tagTitle: "Download Now", tagColor: "blue"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
             fileSize: ".5mb",
             close: false,
             tag: {isOpen: false, tagTitle: "Download Now", tagColor: "blue"},
         },
         {
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
-            fileSize: ".5mb",
+            fileSize: "1mb",
             close: true,
-            tag: {isOpen: true, tagTitle: "Upload", tagColor: "green"},
+            tag: {isOpen: false, tagTitle: "Download Now", tagColor: "blue"},
         },
         {
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
             fileSize: ".5mb",
             close: true,
             tag: {isOpen: true, tagTitle: "Download Now", tagColor: "blue"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: ".8mb",
+            close: true,
+            tag: {isOpen: true, tagTitle: "Download Now", tagColor: "green"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: "2mb",
+            close: false,
+            tag: {isOpen: false, tagTitle: "Download Now", tagColor: "green"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: "400kb",
+            close: false,
+            tag: {isOpen: true, tagTitle: "Download Now", tagColor: "blue"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: ".5mb",
+            close: true,
+            tag: {isOpen: false, tagTitle: "Upload Now", tagColor: "green"},
+        },
+        {
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, odit.",
+            fileSize: "100mb",
+            close: false,
+            tag: {isOpen: true, tagTitle: "Upload Now", tagColor: "blue"},
         },
     ];
 
